@@ -1,0 +1,133 @@
+<html>
+	<head>
+		<title>Т-14 Z-1. HTML5</title>
+		<style>
+			body{
+				background: url('me.jpg');
+				color: white;
+				margin: 0;
+				padding: 0;
+				font-family: tahoma
+			
+			}
+			nav{
+				border-bottom: 2px solid white;
+				padding: 10px 20px;
+			}
+			main{
+				height: 100vh;
+				display: flex;
+			}
+			footer{
+				border-top: 2px solid white;
+				padding: 10px 20px;
+				display: flex;
+				justify-content: space-around;
+
+			}
+			nav a{
+				text-decoration: none;
+				color: white;
+				font-size: 1.2rem;
+				margin-right: 15px;
+				border-bottom: 3px solid white;
+				padding-bottom: 2px;
+				transition: 0.3s ease;
+			}
+			nav a:hover{
+				color: yellow;
+				font-size: 1.24rem;
+				border-bottom: 3px solid yellow;
+				
+			}
+			.info_box{
+				width: 70%;
+				border-right: 3px solid white;
+			}
+			aside{
+				width: 30%;
+			}
+			li a{
+				text-decoration: none;
+				color: white;
+				font-size: 1.2rem;
+			}
+			li a:hover{
+				text-decoration: underline;
+			}
+			.box{
+				display: flex;
+				align-items: center;
+			}
+			.info{
+				padding-left: 50px;
+				
+			}
+			.container{
+				background: rgba(0,0,0, 0.6);
+			}
+		</style>
+	</head>
+	
+	<body>
+	<div class="container">
+		<!-- Меню -->
+		<nav>
+			<a href="#">Головна</a>
+			<a href="#">Галерея</a>
+		</nav>
+	
+		<!-- Основа -->
+		<main>
+			<div class="info_box">
+				<h1 align="center">Основна інформація</h1>
+				
+				<div class="box">
+					<div class="photo">
+						<img src="images.jfif" width="200px">
+					</div>
+					
+					<div class="info">
+						<p>Ім'я: Василинка</p>
+						<p>Інформація про мене: ...</p>
+						<p>Вік: 10р</p>
+						<p>Е-пошта: ...</p>
+					
+					</div>
+				</div>
+			</div>
+			
+			<aside>
+				<h2 align="center">Більше про мене</h2>
+				
+				<ul>
+					<li>
+						<a href="#">Моя освіта</a>
+					</li>
+			
+					<li>
+						<a href="#">Пройдені курси</a>
+					</li>
+					
+					<li>
+						<a href="#">Мої навики</a>
+					</li>
+					
+					<li>
+						<a href="#">Досвід роботи</a>
+					</li>
+					
+				</ul>
+			</aside>
+		</main>
+		
+		<!--Підвал -->
+		<footer>
+			<p>Logo</p>
+			<p>© Всі права захищено</p>
+			<p>mynew@gmail.com</p>
+		
+		</footer>
+		</div>
+	</body>
+</html>
