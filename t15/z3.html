@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<title> рeєстрація</title>
+		<style>
+		body{
+			background: firebrick;
+			color: white;
+			font-family: Tahoma;
+		}
+		input[type=emeil], input[type=password]{
+			margin: 10px 0 20px;
+			height: 30px;
+		}
+		form{
+			padding: 20px;
+		}
+		form div{
+			margin-bottom: 10px;
+		}
+		bottom{
+			padding: 5px 10px;
+			border-radius: 10px;
+		}
+		</style>
+	</head>
+	
+	<body>
+		<h1 align="center">Форма рeєстрації</h1>
+		
+		<form action="z1.html">
+			
+			<div>
+				<label>Ваш логін</label><br>
+				<input type="emeil">
+			</div>
+			
+			<div>
+				<label>Ваш пароль</label><br>
+				<input type="password">
+			</div>
+			
+			<div>
+				<label>Виберіть стать</label><br>
+				<input type="radio" name="gender"> Жіноча <br>
+				<input type="radio" name="gender"> Чоловіча <br>
+			</div>	
+			
+			<div>
+				<label>Хто ви?</label><br>
+				<input type="checkbox"> Учень <br>
+				<input type="checkbox"> Студент <br>
+				<input type="checkbox"> Програміст <br>
+			</div>
+			
+			<div>
+				<label>Завершено навчання у</label><br>
+				<input type="checkbox"> Школі <br>
+				<input type="checkbox"> Коледжі <br>
+				<input type="checkbox"> Університеті <br>
+			</div>
+			
+			<div class="btn_box">
+			<button type="submit">Заруєструватися</button>
+			</div>
+		</form>	
+	</body>
+</html>
