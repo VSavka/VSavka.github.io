@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 80px auto;
+
+}
+.box{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: white;
+    font-family: Tahoma;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 10px;
+    box-shadow: 3px 3px 5px navy;
+    transition: 0.5s ease;
+}
+.free{
+    background: rgb(88, 204, 224);
+}
+.free:hover{
+    transform: rotate(10deg);
+    background: lime;
+}
+.reserve{
+    background: red;
+}
+.reserve:hover{
+    animation: nono 1s 1;
+}
+@keyframes nono{
+    25%{ transform: rotate(10deg) ;}
+    50%{ transform: rotate(-10deg) ;}
+    75%{ transform: rotate(10deg) ;}
+    100%{ transform: rotate(-10deg) ;}
+}
